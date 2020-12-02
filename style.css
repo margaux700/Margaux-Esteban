@@ -1,0 +1,100 @@
+
+  Body {
+    color: black;
+    /* background-color: #83bec6;*/
+    text-align:center;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  
+  /********* LOGO ********/
+  #logo {
+    text-align: center;
+    margin: -10px -10px 0px -10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image:url('fond couleur.png');
+    height: 71vmax;   /* à retravailler jouer avec l'unité pour améliorer le responsive*/
+  }
+
+  .logo-me{
+    margin-top:20%;
+    width: 18%;
+  }
+
+  .light{
+    font-size: 25px; 
+    font-weight:100;
+    color: #ffffff;
+  }
+  
+  
+  .flotte {
+    float:right;
+    margin-top: 0px;
+    margin-right: -10px;
+    background-color: blue;
+  }
+
+  .titre{
+    color: #333333;
+   font-size: 2.5rem;
+    margin-top: 50px;
+   
+  }
+  
+  .paragraphe{
+    font-weight:30;
+    font-size: 1.5rem;
+    margin-top: 50px;
+
+  }
+  
+  
+  .titre2{
+    color: #333333;
+    text-align:center;
+   font-size: 2.5rem;
+    margin-top: 100px;
+  }
+  
+  #final{
+     text-align: center;
+    margin-top: -150px;
+    
+    }
+
+/********************************  Site RESPONSIVE ********************************************/
+
+
+    @media screen and (max-width: 1024px)
+{
+
+    .light{
+        font-size:100%;
+        margin-top: auto;
+    }
+
+
+    .titre{
+     font-size: 1.5rem;
+    }
+
+    .paragraphe{
+      font-size: 1rem;
+    }
+
+    .titre2{
+      font-size: 1.5rem;
+    }
+
+    #final{
+      font-size:100%;
+      margin-top: auto;
+     
+     }
+
+
+
+}
